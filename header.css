@@ -1,0 +1,103 @@
+header{
+    height: auto;
+    width: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.info{
+    display: flex;
+    height: 50px;
+    flex-direction: row;
+    background-color: rgba(52, 168, 83, 0.06);
+    
+}
+.account-page{
+    margin: 0 10px;
+}
+
+.contact{
+    align-items: center;
+    color: black;
+    display: flex;
+    flex-grow: 1;
+    justify-content: end;
+    margin-right: 20px;
+}
+.contact a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+.contact-ways{
+    align-items: center;
+    display: flex;
+}
+.dashbord{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-grow: 1 ;
+    margin-left: 10px;
+}
+.divider{
+    background-color: rgba(121, 121, 121, 0.18);
+    height: 15px;
+    width: 1px;
+    margin: 0 20px;
+}
+.profile{
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img{
+    width: 200px;
+    height: auto;
+    margin-left: 20px;
+}
+.searchbar input{
+    width: 200px;
+    height: 40px;
+    border: 1px solid rgb(231, 231, 231);
+    border-radius: 3px;
+    color: rgb(238, 238, 238);
+}
+.user{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+
+}
+.user a{
+    text-decoration: none;
+    margin: 0 10px;
+}
+.navbar{
+    height: 70px;
+    display: flex;
+    background-color: 019267;
+    justify-content: space-between;
+    align-items: center;
+}
+.login{
+    background-color: rgb(255, 189, 46);
+    width: 11%;
+    height: 50px;
+    margin-right: 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold ;
+}
+.menu{
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+}
+.menu span{
+    margin: 0 10px;
+}
+
