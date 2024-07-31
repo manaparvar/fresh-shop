@@ -5,10 +5,9 @@ header{
 }
 .info{
     display: flex;
-    height: 50px;
+    height: 60px;
     flex-direction: row;
-    background-color: rgba(52, 168, 83, 0.06);
-    
+    background-color: #f7f7f7;
 }
 .account-page{
     margin: 0 10px;
@@ -26,6 +25,7 @@ header{
     text-decoration: none;
     color: black;
     font-size: 15px;
+    margin-left: 5px;
 }
 .contact-ways{
     align-items: center;
@@ -40,7 +40,7 @@ header{
     margin-left: 10px;
 }
 .divider{
-    background-color: rgba(121, 121, 121, 0.18);
+    background-color:  #dbdbdb;
     height: 15px;
     width: 1px;
     margin: 0 20px;
@@ -54,16 +54,48 @@ header{
 }
 
 .logo img{
-    width: 200px;
-    height: auto;
+    width: auto;
+    height: 190px;
     margin-left: 20px;
+}
+
+.searchbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid rgb(231, 231, 231);
+    border-radius: 4px;
+    font-size: 8px;
+    color: rgb(153, 153, 153);
+}
+.searchbar button{
+    width: 85px;
+    height: 45px;
+    background-color: #34a853;
+    border-radius: 0 4px 4px 0;
+    border: none;
+    color: white;
+    font-size: 15px;
+    font-weight: bolder ;
+}
+.divider-second{
+    background-color:  #dbdbdb;
+    height: 18px;
+    width: 1px;
+    margin: 0 10px;
 }
 .searchbar input{
     width: 200px;
-    height: 40px;
-    border: 1px solid rgb(231, 231, 231);
-    border-radius: 3px;
-    color: rgb(238, 238, 238);
+    height: 45px;
+    border: none;
+    color: rgb(153, 153, 153);
+    margin-left: 10px;
+}
+.selectable-searchbar{
+    width: 200px;
+    height: 45px;
+    color: rgb(153, 153, 153);
+    border: none;
 }
 .user{
     display: flex;
@@ -74,16 +106,17 @@ header{
 .user a{
     text-decoration: none;
     margin: 0 10px;
+    align-items: center;
 }
 .navbar{
     height: 70px;
     display: flex;
-    background-color: 019267;
+    background-color:  #34a853;
     justify-content: space-between;
     align-items: center;
 }
 .login{
-    background-color: rgb(255, 189, 46);
+    background-color: #ffbb38;;
     width: 11%;
     height: 50px;
     margin-right: 20px;
@@ -95,6 +128,7 @@ header{
     color: white;
     font-weight: bold;
     display: flex;
+    font-size: 17px;
     justify-content: space-between;
 }
 .menu span{
